@@ -1,0 +1,132 @@
+------------------------------ primeira aula --------------
+abstrato 
+ ^    |
+ |   `´ 
+real
+
+**requisitos funcionais : 
+
+1=
+2=
+3=
+4=
+
+**requisitos nao funcionais :
+ 
+1= usuabilidade *
+2= eficiencia
+3= confiabilidade
+4= portabilidade
+5= segurança *
+6= reusabilidade
+7= capabilidade
+8= escalabilidade
+9= manutenibilidade  
+10= disponibilidade *
+------------------------------ segunda aula --------------
+
+analise : aspectos conceituais e comerciais (relação direta com os requisitos funcionais)
+desenvolvimento : se preocupa com os aspectos aplicados  (relação direta com os requisitos nao funcionais)
+(o elo das duas coisas é arquitetura): aspectos tecnicos do sistema 
+
+**oque é?
+
+é um processo de definir uma solução estruturada para o desenvolvimento de um software
+(abstracao)
+
+**para que serve?
+(qualidade do software)
+todas as atividades, no final ela serve para a GARANTIR A QUALIDADE do produto final (juntamente com os requisitos nao funcionais )
+
+estabelecer : 
+1= estruturas  
+2= padrões 
+3= tecnologias utilizadas 
+4= etapas
+5= principios
+6= boas praticas/regras
+
+criar:
+1= bibliotecas 
+2= framework
+3= modelos (estabelece modelos/representações)
+4= componentes
+5= plugins
+
+**como aplicar?
+
+classica:
+moderna:
+
+
+-----------------------------terceira aula 17/08/22----------------------
+
+Modelo cascata: surgiu em 1970
+	requeriments / analysis - requisitos para o software
+		desing - modelagem
+			coding - codigo
+				testing - testar o software
+					maintenance - entrega do produto apos 1 ano da solicitação
+					
+Modelo espiral: surgiu em 1986
+	entrega de versoes para o cliente apos cada desenvolvimento e teste (ciclo)
+	
+Modelo Processo unificado/iterativo: surgiu em 1999
+	É dividido em inception, elaboration, construction e transation, implicando a inicialização em diversos departamentos 
+
+
+
+Eu posso olhar a arquitetura como: macro ou micro
+Arquitetura de soluções: reutilização em nível de infraestrutura
+Pode ser um sistema ou varios sistemas integrados que um sisteam apode ser frututo de outros
+
+
+-----------------------------terceira aula 24/08/22----------------------
+
+Modelagem arquitetura classica "4+1"
+medio para grande porte, com alto risco de erro, exigindo mais planejamento.
+
+Struture: visao estatica/ components,packages, interfaces
+Development: versionamento do codigo
+Bahaviour:
+Deployment:
+
+
+como o siatema vai funcionar:
+
+                            | 
+          visao estrutural  | visao de desenvolvimento
+					________|_________
+					(visao funcional)
+					--------|---------
+     visao comportamental   | visao de implantação 
+							|
+
+
+4 visao estrutural: estatica /
+3 visao comportamental : dinamica /
+2 visao de desenvolvimento: devopes / tecnicas, sistemas de versionamento, entregas. 
+1 visao de implantação : infraestrutura / 
+
+
+run time: momento de execução 
+
+Processo unificado (up):
+	| 
+	|---> Rational Unifcad Process: Criada com o intuito de orientar o desenvolvimento de um programa
+	|
+	|---> Linguagem de Modelagem Unificado (UML): É uma representação grafica de modelo de um sistema em projet. 
+			Implementação ou ja existente.
+				Define dois tipos de diagrama estrutura e comportamento
+	
+
+
+
+=============ROTEIRO DE APRENDIZAGEM NOSSA===============
+4 visao estrutural: fisico (conjunto todo /pc e perifericos)
+3 visao comportamental : fisico (conjunto todo /pc e perifericos)
+2 visao de desenvolvimento: logico (nucleo)
+1 visao de implantação : logico (nucleo)
+
+
+

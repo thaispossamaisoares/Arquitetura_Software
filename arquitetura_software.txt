@@ -130,3 +130,53 @@ Processo unificado (up):
 
 
 
+software -> sistema? -> Funcionalidade para contruir a visao funcional do sistemas.
+
+Sistema baseado em subsistemas ja existente
+dentre eles vamos usar como base:
+
+quais as principais funcionalidades de:
+
+	1= (CMS) CONTENT MANAGER SYSTEM
+	2= E COMMERCE 
+	3= VIES DE REDE SOCIAL
+	4= CHAT
+
+**funcionalidades?**
+1 realizar vendas
+2 relacionar usuarios
+3 enviar / receber mensagem (instantaneas)
+4 realizar/comentar postagem/conteudos
+5 consultar produtos
+6 realizar pagamento
+7 gerenciar conteudos
+8 armazenar midias 
+
+controle de estoque
+cadastrar usuario
+
+
+--------------------MODELAGEM: --------------------
+	ESCOPO DO SISTEMA
+	
+		usuario1 vai: 
+			   |1 realizar vendas      |-----> Controle de estoque 
+administrador  |2 relacionar usuarios  |
+			   |3 enviar mensagem      |
+			   |4 realizar postagem    |__
+									      |
+									      |--->Extends(opcional)
+									      |		
+								        5 armazenar midias 
+								        usado no seguinte cenario: precisar armazenar midia) 
+								        -> relacionar com: gerenciar conteudos e realizar postagem 
+									      |
+									      |--->Include(obrigatorios
+			usuario1 vai:       	    __|
+			   |6 consultar produto    |
+			   |7 realizar pagamento   |
+			   |8 gerenciar conteudos  |
+
+
+
+

@@ -81,7 +81,7 @@ Arquitetura de soluções: reutilização em nível de infraestrutura
 Pode ser um sistema ou varios sistemas integrados que um sisteam apode ser frututo de outros
 
 
------------------------------terceira aula 24/08/22----------------------
+-----------------------------quarta aula 24/08/22----------------------
 
 Modelagem arquitetura classica "4+1"
 medio para grande porte, com alto risco de erro, exigindo mais planejamento.
@@ -179,4 +179,18 @@ administrador  |2 relacionar usuarios  |
 
 
 
+
+
+
+-----------------------------quinta aula 14/09/22----------------------
+
+-----------------------------sexta aula 21/09/22----------------------
+
+-----------------------------setima aula 28/09/22----------------------
+
+-----------------------------oitava aula /10/22----------------------
+
+-----------------------------nona aula /10/22----------------------
+
+-----------------------------decima aula /10/22----------------------
 
